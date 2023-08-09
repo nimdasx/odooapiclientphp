@@ -1,0 +1,9 @@
+services:
+  php7phalcon3:
+    image: nimdasx/apache-php7-phalcon4
+    restart: unless-stopped
+    ports:
+    - 10009:80
+    volumes:
+      - ../app:/var/www/html
+      - ./php-telo.ini:/usr/local/etc/php/conf.d/php-telo.ini

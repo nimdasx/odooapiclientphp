@@ -1,0 +1,15 @@
+/.idea
+/.phalcon
+/.settings
+/.vscode
+/.buildpath
+/.projec
+/.project
+/nbproject
+**/.DS_Store
+/app/vendor
+/app/composer.lock
+/app/konfigurasi.php
+/app/konfigurasi_*.php
+/app/env.php
+/app/web-root/error_log
